@@ -46,3 +46,4 @@ $ git commit -m "Committing the app file"   -> commit dir contents that have bee
 [master (root-commit) b4ba0d2] Committing the app file
  1 file changed, 1 insertion(+)
  create mode 100644 app.js
+  
