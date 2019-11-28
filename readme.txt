@@ -62,4 +62,6 @@ $ git commit -m "Committing the app file"   -> commit dir contents that have bee
 
   git reset HEAD file1.txt          -> If file was added, this removes it.
 
+  Create .ignore file in directory and add file names to it for git to ignore them
+
   
