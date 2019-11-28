@@ -72,6 +72,8 @@ $ git commit -m "Committing the app file"   -> commit dir contents that have bee
   $ git merge Feature1          -> This merges all changes back to master when on master.
 
   $ git branch -d Feature1      -> This will delete the Feature1 branch.
+  
+$ git branch -add           -> lists all branches including remote ones
 
   Sign in to github and git hub desktop.
 
