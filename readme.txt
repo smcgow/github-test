@@ -47,4 +47,6 @@ $ git commit -m "Committing the app file"   -> commit dir contents that have bee
  1 file changed, 1 insertion(+)
  create mode 100644 app.js
   
-  $git add .        -> This will add all files in folder.
+  $ git add .        -> This will add all files in folder.
+
+  $git log            -> Shows log history. Enter 'q' to quit
