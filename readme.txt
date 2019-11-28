@@ -75,6 +75,10 @@ $ git commit -m "Committing the app file"   -> commit dir contents that have bee
   
 $ git branch -add           -> lists all branches including remote ones
 
+$ git remote add origin https://github.com/smcgow/github-test.git   -> this will link your repository to the remote github repository
+$ git push -u origin master         -> This will synch the master branch with remote folder. Repeat for other branches.
+
+
   Sign in to github and git hub desktop.
 
 
