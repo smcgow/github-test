@@ -77,7 +77,9 @@ $ git branch -add           -> lists all branches including remote ones
 
 $ git remote add origin https://github.com/smcgow/github-test.git   -> this will link your repository to the remote github repository
 $ git push -u origin master         -> This will synch the master branch with remote folder. Repeat for other branches.
-
+$ git pull              -> This will update brnach or master 
+#This downloads and checks out the git repo
+$ git clone https://github.com/smcgow/github-test.git
 
   Sign in to github and git hub desktop.
 
