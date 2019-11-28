@@ -69,5 +69,9 @@ $ git commit -m "Committing the app file"   -> commit dir contents that have bee
   $ git checkout -b Feature1    -> Adds a new Feature1 branch and switches to it
   $ git checkout master         -> Switches back to master branch.
 
+  $ git merge Feature1          -> This merges all changes back to master when on master.
+
+  $ git branch -d Feature1      -> This will delete the Feature1 branch.
+
 
   
