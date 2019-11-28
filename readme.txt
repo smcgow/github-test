@@ -73,5 +73,7 @@ $ git commit -m "Committing the app file"   -> commit dir contents that have bee
 
   $ git branch -d Feature1      -> This will delete the Feature1 branch.
 
+  Sign in to github and git hub desktop.
+
 
   
