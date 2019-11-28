@@ -51,17 +51,23 @@ $ git commit -m "Committing the app file"   -> commit dir contents that have bee
 
   $ git add *.html      -> Wildcard used to match file types for add.
 
-  $git log            -> Shows log history. Enter 'q' to quit
+  $ git log            -> Shows log history. Enter 'q' to quit
   
 
-  git checkout b4ba0d2e6312ff9dd9f8cd8536f3cc3195196d03      -> This moves the repo back to that revision. Now on HEAD branch.
+  $ git checkout b4ba0d2e6312ff9dd9f8cd8536f3cc3195196d03      -> This moves the repo back to that revision. Now on HEAD branch.
 
-  git revert --no-commit b4ba0d2e6312ff9dd9f8cd8536f3cc3195196d03..HEAD  -> Reverts repo back to that version. --no-commit means, apply to all files and don't prompt.
+  $ git revert --no-commit b4ba0d2e6312ff9dd9f8cd8536f3cc3195196d03..HEAD  -> Reverts repo back to that version. --no-commit means, apply to all files and don't prompt.
 
-  git checkout master      -> Brings back to master branch.
+  $ git checkout master      -> Brings back to master branch.
 
-  git reset HEAD file1.txt          -> If file was added, this removes it.
+  $ git reset HEAD file1.txt          -> If file was added, this removes it.
 
   Create .ignore file in directory and add file names to it for git to ignore them
+
+  $ git branch              -> Lists all the branches in the repo
+
+  $ git checkout -b Feature1    -> Adds a new Feature1 branch and switches to it
+  $ git checkout master         -> Switches back to master branch.
+
 
   
